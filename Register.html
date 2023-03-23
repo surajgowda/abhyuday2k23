@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration-Abhyuday 2K23</title>
+        <link rel="stylesheet" href="new.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href="form.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded"/>
+    </head>
+    <body>
+        <img src="hero_space_bg.jpg" id="bg1">
+           
+
+        <nav style="background-color: black;">
+
+            <div id="logo_div" style="margin: 0;padding: 0;"><img src="clg logo.png" alt="" id="logo"></div>
+
+            <i class="material-icons" id="nav_open" onclick="navopen();">menu</i>
+            <i class="material-icons" id="nav_close" onclick="navclose();">close</i>
+            <script>  
+            
+            </script>
+
+            
+
+            <div id="sub_nav">
+            <div id="links">
+                <a href="#">Home </a>
+                <a href="#">About Us</a>
+                <a href="#">Events</a>
+                <a href="#">Schedule</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            
+
+            <div id="user_links">
+                <a href="#" id="register">Register</a>
+                <h1 style="margin: 0 0 0 5px;padding:0;display: inline-block;color: whitesmoke;">|</h1>
+                <a href="#" id="login">Login</a>
+                
+            </div>
+            </div>
+        </nav>
+        <header style="background-color: transparent;height: 10vh;"></header>
+        
+        <!--Content-->
+
+        <div id="form_div">
+
+            <form action="" method="post">
+                <div id="title">
+                  <h3>Kindly help us with your details...</h3>
+                </div>
+                <div>
+                <input type="text" class="textin" name="Name" placeholder="Your Full Name *" required>
+                <span class="icons material-icons">person</span>
+                </div>
+                <div>
+                <input type="email" name="Mail" placeholder="Email *" required class="textin" >
+                <span class="icons material-icons">mail</span>
+                </div>
+                <div>
+                  <input type="tel" name="Num" placeholder="Mobile Number *" class="textin" required>
+                  <span class="icons material-icons">phone_iphone</span>
+                </div>
+                <div>
+                    <input type="text" name="Clg" placeholder="College Name *" class="textin" required>
+                    <span class="icons material-symbols-rounded">location_city</span>
+                </div>
+                <div>
+                    <input type="text" name="USN" placeholder="USN/College Register No. *" class="textin" required>
+                    <span class="icons material-symbols-rounded">contact_emergency</span>
+                </div>
+                <div>
+                    <input type="submit" placeholder="Submit" id="submit" >
+                </div>
+
+
+
+            
+
+            </form>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div id="footer">
+            <div style="width: fit-content;margin: auto;"><img src="Asset 2.png" id="footTitle"></div>
+            
+                
+            
+            
+        
+            <div id="SMlinks">
+                <a href="https://www.instagram.com/abhyuday.msrit/" class="footLinks" ><i class="fa fa-instagram" aria-hidden="true"></i>abhyuday.msrit</a>
+                <a href="" class="footLinks"><i class="fa fa-youtube" aria-hidden="true"></i>abhyuday2k23</a>
+                <a href="mailto: info@abhyuday2k23.tech" class="footLinks"><i class="fa fa-envelope" aria-hidden="true"></i>info@abhyuday2k23.tech</a>
+            </div>
+        </div>
+            
+        </div>
+
+
+
+    </body>
+    
+    <script>
+    function navopen(){
+        document.getElementById("sub_nav").style.display="flex";
+        document.getElementById("nav_open").style.display="none";
+        document.getElementById("nav_close").style.display="block"
+
+    }
+    function navclose(){
+        document.getElementById("sub_nav").style.display="none";
+        document.getElementById("nav_open").style.display="block"
+        document.getElementById("nav_close").style.display="none"
+    }
+
+
+
+imgs=document.getElementsByTagName("img")
+for(let i=0;i<imgs.length;i++){
+    imgs[i].setAttribute("draggable","false")
+}
+
+
+
+
+</script>
+</html>
