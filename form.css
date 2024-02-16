@@ -1,0 +1,56 @@
+#form_div{
+    width: 40vw;
+    margin: 5vh auto;
+    background-color: white;
+    border-radius: 25px;
+    height: auto;
+}
+
+
+.textin{
+    background-color: rgb(227 227 227);
+    border-radius: 100px;
+    width: 100%;
+    margin: 2% auto;
+    color: black;
+    border: none;
+    padding: 12px 40px;
+
+    
+
+}
+
+form div{
+    position: relative;
+    
+    
+}
+
+
+.icons{
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+
+.textin:focus-visible{
+    outline: none;
+}
+
+#submit{
+    background-color: rgb(70, 67, 70);
+    color: white;
+    border-radius: 15px;
+    padding: 12px 17px;
+    border: none;
+    outline: none;
+}
+
+#submit:hover{
+    background-color: rgb(63, 60, 63);
+}
